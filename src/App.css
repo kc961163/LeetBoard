@@ -1,9 +1,35 @@
+/* Global container styling */
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  background-color: #f7f7f7;
   text-align: center;
+  font-family: Arial, sans-serif;
 }
+
+/* Header styling */
+.App header {
+  background-color: #4caf50;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.App header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Main content area */
+.App main {
+  padding: 1rem;
+  min-height: 60vh;
+}
+
+/* You can include additional global styles here if needed */
 
 .logo {
   height: 6em;
@@ -33,6 +59,7 @@
   }
 }
 
+/* Optional card wrapper styling if needed */
 .card {
   padding: 2em;
 }
