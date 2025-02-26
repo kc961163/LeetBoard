@@ -1,4 +1,3 @@
-import React from 'react'
 import './Board.css'
 import Card from '../Card/Card'
 
@@ -27,17 +26,17 @@ const resources = [
   { id: 3, topic: 'Heaps', img: heapsImg, link: 'https://leetcode.com/explore/learn/card/heap/' },
   { id: 4, topic: 'Graphs', img: graphsImg, link: 'https://leetcode.com/explore/learn/card/graph/' },
   { id: 5, topic: 'Linked List', img: linkedListImg, link: 'https://leetcode.com/explore/learn/card/linked-list/' },
-  { id: 6, topic: 'Recursion 1', img: recursion1Img, link: 'https://leetcode.com/explore/learn/card/recursion/' },
-  { id: 7, topic: 'Recursion 2', img: recursion2Img, link: 'https://leetcode.com/explore/learn/card/recursion/' },
+  { id: 6, topic: 'Recursion 1', img: recursion1Img, link: 'https://leetcode.com/explore/learn/card/recursion-i/' },
+  { id: 7, topic: 'recursion-ii', img: recursion2Img, link: 'https://leetcode.com/explore/learn/card/recursion/' },
   { id: 8, topic: 'DP', img: dpImg, link: 'https://leetcode.com/explore/learn/card/dynamic-programming/' },
-  { id: 9, topic: 'Binary Tree', img: binaryTreeImg, link: 'https://leetcode.com/explore/learn/card/binary-tree/' },
-  { id: 10, topic: 'BST', img: bstImg, link: 'https://leetcode.com/explore/learn/card/binary-search-tree/' },
-  { id: 11, topic: 'N-array Tree', img: nArrayTreeImg, link: 'https://leetcode.com/explore/learn/card/tree/' },
+  { id: 9, topic: 'Binary Tree', img: binaryTreeImg, link: 'https://leetcode.com/explore/learn/card/data-structure-tree/' },
+  { id: 10, topic: 'BST', img: bstImg, link: 'https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/' },
+  { id: 11, topic: 'N-array Tree', img: nArrayTreeImg, link: 'https://leetcode.com/explore/learn/card/n-ary-tree/' },
   { id: 12, topic: 'Trie', img: trieImg, link: 'https://leetcode.com/explore/learn/card/trie/' },
   { id: 13, topic: 'Binary Search', img: binarySearchImg, link: 'https://leetcode.com/explore/learn/card/binary-search/' },
-  { id: 14, topic: 'Queues & Stack', img: queuesStackImg, link: 'https://leetcode.com/explore/learn/card/queue/' },
+  { id: 14, topic: 'Queues & Stack', img: queuesStackImg, link: 'https://leetcode.com/explore/learn/card/queue-stack/' },
   { id: 15, topic: 'HashMaps', img: hashMapsImg, link: 'https://leetcode.com/explore/learn/card/hash-table/' },
-  { id: 16, topic: 'Arrays & Strings', img: arraysStringsImg, link: 'https://leetcode.com/explore/learn/card/arrays-and-strings/' }
+  { id: 16, topic: 'Arrays & Strings', img: arraysStringsImg, link: 'https://leetcode.com/explore/learn/card/array-and-string/' }
 ]
 
 function Board() {

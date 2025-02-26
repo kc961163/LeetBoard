@@ -5,3 +5,9 @@
   gap: 20px;
   padding: 20px;
 }
+
+/* Dark mode styling for Board */
+.App.dark .board-container {
+  background-color: #222; /* optional */
+  border-radius: 5px;
+}
