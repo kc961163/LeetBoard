@@ -27,7 +27,7 @@ const resources = [
   { id: 4, topic: 'Graphs', img: graphsImg, link: 'https://leetcode.com/explore/learn/card/graph/' },
   { id: 5, topic: 'Linked List', img: linkedListImg, link: 'https://leetcode.com/explore/learn/card/linked-list/' },
   { id: 6, topic: 'Recursion 1', img: recursion1Img, link: 'https://leetcode.com/explore/learn/card/recursion-i/' },
-  { id: 7, topic: 'recursion-ii', img: recursion2Img, link: 'https://leetcode.com/explore/learn/card/recursion/' },
+  { id: 7, topic: 'Recursion 2', img: recursion2Img, link: 'https://leetcode.com/explore/learn/card/recursion-ii/' },
   { id: 8, topic: 'DP', img: dpImg, link: 'https://leetcode.com/explore/learn/card/dynamic-programming/' },
   { id: 9, topic: 'Binary Tree', img: binaryTreeImg, link: 'https://leetcode.com/explore/learn/card/data-structure-tree/' },
   { id: 10, topic: 'BST', img: bstImg, link: 'https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/' },
